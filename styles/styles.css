@@ -48,6 +48,10 @@ header {
     list-style: none;
 }
 
+.hamburger-icon{
+    display: none;
+}
+
 .nav-item {
     padding: 8px 20px;
     border-radius: 39px;
@@ -400,4 +404,59 @@ footer hr{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     padding: 35px 0;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+        width: 24px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero-left, .hero-right{
+        width: 100%;
+    }
+    .hero-title{
+        font-size: 3rem;
+    }
+    .hero .button{
+        margin-bottom: 20px;
+    }
+    .habits-container{
+        flex-direction: column;
+    }
+    .extra-mile-box{
+        flex-direction: column;
+    }
+    .extra-mile-content, .extra-mile-img{
+        width: 100%;
+    }
+    .extra-mile-img{
+        margin-top: 20px;
+    }
+    .training-section{
+        display: none;
+    }
+    .calculator{
+        padding-top: 100px;
+    }
+    .calculator-content{
+        flex-direction: column;
+    }
+    .calculator-content-right{
+        margin-top: 50px;
+    }
+    form input, #activity {
+        width: 90%;
+    }
+    .team-boxes{
+        grid-template-columns: 1fr;
+    }
+    .footer-top{
+        grid-template-columns: 1fr;
+    }
 }
