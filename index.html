@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Versatile UI</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Versatile UI</h1>
+    <header>
+        <nav class="navbar container">
+            <h3 class="brand"><i>Fitness</i></h3>
+            <ul class="nav-links">
+                <li id="home" class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Service</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <section class="hero container">
+            <div class="hero-left">
+                <h1 class="hero-title">Get body in <span id="cursive">shape</span> & stay healthy</h1>
+                <p class="hero-subtitle">A huge selection of health and fitness content, healthy recipes<br>and
+                    transformation stories to help you get fit and stay fit!</p>
+                <button class="button">Join Club Now!</button>
+                <button class="dark-button">Download App</button>
+            </div>
+            <img src="images/Images 2.png" alt="">
+        </section>
+    </header>
+    <main>
+        <!-- habits section -->
+        <section class="habits">
+            <h2 class="section-title">Change Your Habits</h2>
+            <p class="section-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <div class="habits-container container">
+                <div class="habit">
+                    <img src="images/image 3.png" alt="">
+                    <h5 class="habit-title">Movement</h5>
+                    <p class="habit-subtitle">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div class="habit">
+                    <img src="images/image 2.png" alt="">
+                    <h5 class="habit-title">Time</h5>
+                    <p class="habit-subtitle">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div class="habit">
+                    <img src="images/image 4.png" alt="">
+                    <h5 class="habit-title">Practice</h5>
+                    <p class="habit-subtitle">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div class="habit">
+                    <img src="images/image 5.png" alt="">
+                    <h5 class="habit-title">Weight Loss</h5>
+                    <p class="habit-subtitle">We believe fitness should be accessible to everyone</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- extra mile section -->
+        <section class="extra-mile-section">
+            <div class="extra-mile-box container">
+                <div class="extra-mile-content">
+                    <h2 class="section-title">Run an Extra Mile Easily</h2>
+                    <p class="section-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                    <button class="button">Join Now</button>
+                </div>
+                <img class="extra-mile-img" src="images/run.jpg" alt="">
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    font-family: "Inter", serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.section-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* nav styles */
+header {
+    background-image: linear-gradient(black, #111111, black);
+    padding-top: 57px;
+}
+
+.navbar,
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.brand {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #E6533C;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-item{
+    padding: 8px 20px;
+    border-radius: 39px;
+    margin-right: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.nav-item:hover{
+    background-color: #E6533D;
+    cursor: pointer;
+}
+
+#home{
+    background-color: #E6533D;
+}
+
+/* hero styles */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left, .hero-right{
+    width: 40%;
+}
+
+.hero-title{
+    color: white;
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+#cursive{
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+}
+
+.hero-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 28px 0;
+}
+
+.button, .dark-button{
+    padding: 16px 40px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 42px;
+    background-color: #E6533D;
+    margin-right: 14px;
+}
+
+.dark-button{
+    background-color: transparent;
+}
+
+.button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dark-button:hover{
+    background-color: #E6533D;
+    cursor: pointer;
+}
+
+/* habits section styles */
+.habits{
+    background-color: black;
+    padding: 100px 0;
+}
+
+.habits-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 58px;
+}
+
+.habit{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.habit img{
+    border-radius: 50%;
+}
+
+.habit-title{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 30px 0 6px 0;
+}
+
+.habit-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.125;
+}
+
+/* extra mile section styles */
+.extra-mile-section{
+    background-color: black;
+}
+
+.extra-mile-box{
+    background-color: #222222;
+    border: none;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 32px 40px 54px;
+}
+
+.extra-mile-content{
+    width: 40%;
+}
+
+.extra-mile-content h2, .extra-mile-content p{
+    text-align: left;
+}
+
+.extra-mile-content button{
+    margin-top: 34px;
+}
+
+.extra-mile-img{
+    border-radius: 18px;
+    width: 40%;
+}
