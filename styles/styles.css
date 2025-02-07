@@ -337,6 +337,7 @@ form input {
     background-color: #1A1A1A;
     border: none;
     border-radius: 18px;
+    margin-top: 100px;
 }
 
 .team-boxes img {
@@ -344,4 +345,59 @@ form input {
     height: 100%;
     border: none;
     border-radius: 18px;
+}
+
+/* footer styles */
+
+footer{
+    background-color: #1A1A1A;
+    padding-top: 66px;
+}
+
+.footer-brand{
+    color: #E6533C;
+    font-weight: 800;
+    font-size: 4.375rem;
+    margin-bottom: 20px;
+}
+
+.footer-left .section-subtitle{
+    text-align: left;
+}
+
+.footer-top{
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.footer-right-1, .footer-right-2{
+    text-align: left;
+}
+
+.footer-right-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-right-option{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1.4375rem;
+    margin-bottom: 20px;
+}
+
+footer hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 35px 0;
 }
